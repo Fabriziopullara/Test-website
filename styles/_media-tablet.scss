@@ -1,3 +1,63 @@
-@media screen  {
+@media only screen and (max-width: 810px)  {
+
+  .first-part-container {
+    h1{
+      font-size: 30px;
+    }
+    h3{
+      font-size: 20px;
+    }
+
+    .search-section{flex-wrap: wrap;}
+
+  }
+  
+  nav{
+    flex-wrap: wrap;
+    h3{
+      font-size: 18px;
+    }
+  li{
+      font-size: 8px;
+    }
+    
+  }
+  .second-part{
+    flex-wrap: wrap;
+    h3{
+      font-size: 17px;
+    }
+    p{
+      font-size: 9px;
+    }
+  
+    img{
+      width: 250px;
+    }
+
+  
+  }
+
+  .fifth{
+    .fith-img-text {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      flex-wrap: wrap;
+
+    }
+
+  .text-fifth{
+    h5 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 12px;
+  }
+  }
   
 }
+}
+
+
+
