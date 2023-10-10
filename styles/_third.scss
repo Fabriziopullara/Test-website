@@ -1,0 +1,61 @@
+.third{
+  max-width: 1770px;
+  height: 685px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 20px;
+
+  .text-third{
+    width: 543px;
+    height: 374px;
+    background-color: #232323;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 20px;
+    position: relative;
+    right: 250px;
+    top: 60px;
+
+
+    h6{
+      font-size: 20px;
+    }
+    h5{
+      font-size: 23px;
+    }
+
+    p{
+      line-height: 25px;
+      font-size:15px;
+      
+    }
+
+    button{
+      width: 156px;
+      height: 56px;
+    background-color: #5474FD;
+    color: #ffffff;
+    font-family: 'Aleo', serif;
+
+    }
+  }
+}
+
+.third:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/Rectangle\ 41445.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+

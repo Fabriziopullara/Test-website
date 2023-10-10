@@ -1,0 +1,109 @@
+.second-part {
+  max-width: 1770px;
+  height: 685px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 20px;
+}
+.second-part:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/Rectangle41444.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.text-second {
+  max-width: 560px;
+
+  h3 {
+    color: #fff;
+    font-family: "Aleo", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px /* 72.222% */;
+  }
+
+  p {
+    color: #e8e8e8;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px /* 162.5% */;
+    letter-spacing: 3.2px;
+  }
+
+  button {
+    background-color: #496bfe;
+    font-family: "Aleo", serif;
+    color: #fff;
+    width: 179px;
+    height: 26px;
+  }
+}
+.images-second {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .moving-img {
+    position: relative;
+    right: 80px;
+  }
+}
+
+.down-second {
+  max-width: 1773px;
+  height: 340px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+
+  .down1,
+  .down2,
+  .down3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 353px;
+    height: 163px;
+    p {
+      color: #e8e8e8;
+      font-family: "Aleo", serif;
+      font-size: 25px;
+    }
+  }
+
+  .down1 {
+    i {
+      color: #5474fd;
+      font-size: 50px;
+    }
+  }
+
+  .down2 {
+    i {
+      color: #ff6363;
+      font-size: 50px;
+    }
+  }
+
+  .down3 {
+    i {
+      color: #00a2ff;
+      font-size: 50px;
+    }
+  }
+}

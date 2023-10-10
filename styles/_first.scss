@@ -22,7 +22,7 @@ body {
       color: #fff;
       text-align: center;
       font-family: "Josefin Sans", sans-serif;
-      font-size: 96px;
+      font-size: 76px;
       font-style: normal;
       font-weight: 700;
       line-height: 52px /* 54.167% */;
@@ -35,7 +35,7 @@ body {
       color: #fff;
       text-align: center;
       font-family: "Josefin Sans", sans-serif;
-      font-size: 44px;
+      font-size: 30px;
       font-style: normal;
       font-weight: 400;
       line-height: 52px /* 118.182% */;
@@ -53,35 +53,33 @@ body {
   left: 0;
   z-index: -1;
   background-image: url(../images/image1.png);
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-color: #511ab7;
+  background-color: #ffffff;
 }
 
 .search-section {
   display: flex;
 
   input {
-    width: 503px;
-    height: 63px;
+    width: 403px;
+    height: 43px;
     flex-shrink: 0;
     fill: #fff;
     text-align: center;
   }
   button {
-    width: 153;
-    height: 68px;
+    width: 153px;
+    height: 48px;
     fill: #5474fd;
     stroke-width: 4px;
     stroke: #fff;
     background-color: #5474fd;
     color: #fff;
     text-align: center;
-    font-family: 'Aleo', serif;;
-    font-size: 28px;
+    font-family: 'Aleo', serif;
+    font-size: 12px;
     font-style: normal;
     line-height: 52px /* 185.714% */;
     letter-spacing: 2.8px;
@@ -95,7 +93,7 @@ body {
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
   color: #FFF;
-  font-size: 28px;
+  font-size: 18px;
 
 
 }

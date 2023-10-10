@@ -1,0 +1,35 @@
+nav {
+  max-width: 1773px;
+  height: 83px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #5474FD;
+  align-items: center;
+
+  h3 {
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px /* 108.333% */;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+
+    li{
+      width: 117px;
+      height: 26px;
+      color: #FFF;
+      text-transform: uppercase;
+      font-family: 'Aleo', serif;
+      font-size:13px;
+      padding: 10px;
+
+    }
+  }
+}
