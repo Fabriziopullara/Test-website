@@ -1,0 +1,53 @@
+.fifth {
+  max-width: 1770px;
+  height: 685px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+
+  h3 {
+    font-size: 28px;
+    font-family: "Aleo", serif;
+  }
+
+  .fith-img-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.text-fifth {
+  width: 581px;
+  height: 287px;
+  background-color: #333;
+  padding-left: 20px;
+
+  h5 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.fifth:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/man.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}

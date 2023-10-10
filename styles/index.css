@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 body button,
-body i:hover {
+body i, body :hover {
   cursor: pointer;
 }
 
@@ -18,7 +18,8 @@ body i:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 3540px;
+  max-width: 1770px;
+  width: 100%;
   max-height: 1640px;
   padding: 20px;
 }
@@ -71,7 +72,8 @@ body i:hover {
   display: flex;
 }
 .search-section input {
-  width: 403px;
+  max-width: 403px;
+  width: 100%;
   height: 43px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -79,7 +81,7 @@ body i:hover {
   text-align: center;
 }
 .search-section button {
-  width: 153px;
+  width: 403px;
   height: 48px;
   fill: #5474fd;
   stroke-width: 4px;
@@ -113,6 +115,7 @@ body i:hover {
 
 .second-part {
   max-width: 1770px;
+  width: 100%;
   height: 685px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -234,7 +237,8 @@ body i:hover {
 }
 
 nav {
-  max-width: 1773px;
+  max-width: 1770px;
+  width: 100%;
   height: 83px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,4 +333,157 @@ nav ul li {
   background-position: center;
   background-attachment: fixed;
   background-color: #ffffff;
+}
+
+.fourth {
+  max-width: 1770px;
+  height: 685px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  padding: 20px;
+}
+.fourth .text-fourth {
+  width: 543px;
+  height: 374px;
+  background-color: #232323;
+  opacity: 0.9;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 20px;
+  position: relative;
+  left: 250px;
+  top: 60px;
+}
+.fourth .text-fourth h6 {
+  font-size: 20px;
+}
+.fourth .text-fourth h5 {
+  font-size: 23px;
+}
+.fourth .text-fourth p {
+  line-height: 25px;
+  font-size: 15px;
+}
+.fourth .text-fourth button {
+  width: 156px;
+  height: 56px;
+  background-color: #5474FD;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+}
+
+.fourth:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/Rectangle414452.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+.fifth {
+  max-width: 1770px;
+  height: 685px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+.fifth h3 {
+  font-size: 28px;
+  font-family: "Aleo", serif;
+}
+.fifth .fith-img-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-fifth {
+  width: 581px;
+  height: 287px;
+  background-color: #333;
+  padding-left: 20px;
+}
+.text-fifth h5 {
+  font-size: 22px;
+}
+.text-fifth p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.fifth:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/man.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+}
+
+footer {
+  max-width: 1773px;
+  height: 271px;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+footer .footer-icons .linke {
+  color: #5474FD;
 }
