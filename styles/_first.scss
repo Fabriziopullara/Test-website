@@ -1,3 +1,101 @@
-body{
+body {
   margin: 0;
+  button,
+  i:hover{
+    cursor: pointer;
+
+  }
+}
+
+.first-part-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 3540px;
+  max-height: 1640px;
+  padding: 20px;
+
+
+    h1 {
+      width: fit-content;
+      color: #fff;
+      text-align: center;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 96px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px /* 54.167% */;
+      letter-spacing: 9.6px;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      width: fit-content;
+      color: #fff;
+      text-align: center;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 52px /* 118.182% */;
+      letter-spacing: 13.64px;
+    }
+  }
+
+
+.first-part-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../images/image1.png);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #511ab7;
+}
+
+.search-section {
+  display: flex;
+
+  input {
+    width: 503px;
+    height: 63px;
+    flex-shrink: 0;
+    fill: #fff;
+    text-align: center;
+  }
+  button {
+    width: 153;
+    height: 68px;
+    fill: #5474fd;
+    stroke-width: 4px;
+    stroke: #fff;
+    background-color: #5474fd;
+    color: #fff;
+    text-align: center;
+    font-family: 'Aleo', serif;;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 52px /* 185.714% */;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+  }
+}
+
+.scroll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #FFF;
+  font-size: 28px;
+
+
 }
